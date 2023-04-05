@@ -6,6 +6,7 @@ body{
     display:grid;
     grid-template-columns: repeat(9, 1fr);
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 img{
     width: 100px;
@@ -13,6 +14,7 @@ img{
 
 .seccionizq nav{
     width: 100%;
+    border-right : solid rgb(228, 163, 214);
 }
 
 .seccionizq nav img.logo{
@@ -61,12 +63,13 @@ flex-direction: column;
     justify-content: space-evenly;
     margin: 18px 0 0 0;
 
+
 }
 .seccionemd .stories .amigo img{
     width: 70px;
     height: 70px;
     border-radius: 100%;
-    border-style: solid;
+    border-style: solid; color: rgb(226, 43, 226);
 
 }
 .seccionemd .stories .amigo{
@@ -77,6 +80,8 @@ flex-direction: column;
 }
 .seccionemd .publicaciones .publicacion{
   padding: 0 40px; 
+  margin: 20px;
+  
 
 }
 .seccionemd .publicaciones .publicacion .encabezado{
@@ -117,23 +122,31 @@ flex-direction: column;
     height: 50px;
     border-radius: 100%;
     margin: 0 20px 0 0;
+
 }
 .secciondrc .miperfil{
    display: flex;
    flex-direction: row; 
+   padding: 26px;
    justify-content: space-between;
 }
 .secciondrc{
     grid-column: 8/10;
-    padding: 0 60px 0 0;
+    padding: 10px 60px  0;
+    
+    
 }
 .secciondrc .miperfil .miperfilizq{
     display: flex;
     flex-direction: row;
 }
+
 .secciondrc .miperfil .miperfilizq .miperfiltxt p{
     margin: 0;
     padding: 0;
+}
+.secciondrc .sugerencias{
+    margin-top: 10px;
 }
 .secciondrc .sugerencias .sugerencia1 .suge{
     display: flex;
@@ -145,4 +158,7 @@ flex-direction: column;
 }
 .chico{
     font-size: 12px;
+}
+.azul{
+    color: aqua;
 }
