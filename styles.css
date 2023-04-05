@@ -76,13 +76,14 @@ flex-direction: column;
     justify-content: flex-start;
 }
 .seccionemd .publicaciones .publicacion{
-   
+  padding: 0 40px; 
 
 }
 .seccionemd .publicaciones .publicacion .encabezado{
     display: flex;
     flex-direction: row;
     margin: 0 0 10px 0;
+    justify-content: space-between;
 } 
 .seccionemd .publicaciones .publicacion .encabezado img{
     width: 50px;
@@ -96,4 +97,52 @@ flex-direction: column;
 .seccionemd .publicaciones .publicacion .funciones box-icon{
     margin: 0 0 0 15px;
     justify-content: flex-start;
+}
+.seccionemd .publicaciones .publicacion .encabezado .infousuario{
+ display: flex;
+    flex-direction: row;
+
+}
+.seccionemd .publicaciones .publicacion .encabezado .funcionesizq{
+    display: flex;
+    flex-direction: row;
+}
+.seccionemd .publicaciones .publicacion .funciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.secciondrc  img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 0 20px 0 0;
+}
+.secciondrc .miperfil{
+   display: flex;
+   flex-direction: row; 
+   justify-content: space-between;
+}
+.secciondrc{
+    grid-column: 8/10;
+    padding: 0 60px 0 0;
+}
+.secciondrc .miperfil .miperfilizq{
+    display: flex;
+    flex-direction: row;
+}
+.secciondrc .miperfil .miperfilizq .miperfiltxt p{
+    margin: 0;
+    padding: 0;
+}
+.secciondrc .sugerencias .sugerencia1 .suge{
+    display: flex;
+    flex-direction: row;
+}
+.secciondrc .sugerencias .sugerencia1 .suge .sugetext p{
+    margin: 0;
+
+}
+.chico{
+    font-size: 12px;
 }
