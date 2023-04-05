@@ -17,6 +17,7 @@ img{
     border-right : solid rgb(228, 163, 214);
 }
 
+
 .seccionizq nav .funciones .opciones{
 display:flex; 
 flex-direction: column;
@@ -27,7 +28,7 @@ flex-direction: column;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    margin: 15px 0;
+    margin: 24px 0;
     text-decoration: none;
     color: white;
     font-size: 18px;
@@ -66,7 +67,7 @@ flex-direction: column;
     height: 70px;
     border-radius: 100%;
     border-style: solid; color: rgb(226, 70, 166);
-   
+    justify-content: space-between;
 
 }
 .seccionemd .stories .amigo{
